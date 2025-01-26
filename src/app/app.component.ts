@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { Todo } from './todos/todo.reducer';
-import { addTodo, toggleTodo, deleteTodo } from './todos/todo.actions';
+import { addTodo, deleteTodo } from './todos/todo.actions';
 import { selectTodos } from './todos/todo.selectors';
 
 @Component({
